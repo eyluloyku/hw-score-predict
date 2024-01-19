@@ -29,7 +29,7 @@ subset selection.
 finished.
 - softmax_two_class.ipynb: Treating students getting grade 100 as a class and others as a seperate class.
 Determining the scores based on probability of belonging to class 1. Did not work well.
-
+- regressor_from_text.ipynb: Seperate regressor from text, not merged with other features. Gives 0.46 R2 score.
 ## Methodology
 
 ### Feature Mapping
@@ -182,6 +182,12 @@ Lastly we ensembled the best of all worlds: results from text regression and sim
 Even though we achieved relatively high R2 score and low mean squared error in the end, there are some points of improvement. First of all, the dataset is quite imbalanced and better oversampling techniques should be developed to combat this issue. This affects most of the approaches used from clustering to binning. For instance in the bin classification and grade regression approach, we tested that if the bins were predicted correctly, R2 score would be around 0.9. However class imbalance makes it impossible as can be seen from recall and precision of classes even though the prediction accuracy is 64%. Hence, we can conclude that most of the approached used are promising but more data would have brought more value. 
 
 ## Contributions of Team Members
-Eylül:
+We collaborated on all tasks and discussed the approaches together. None of the models are implemented by one person. But you can find below the files that corresponding team member spent more effort.
+Eylül: 
+- combined.ipynb
+- regressor_from_text.ipynb
+- softmax_two_class.ipynb
 Arda: 
-
+- combined.ipynb
+- oversampling.ipynb
+- ranking.ipynb
