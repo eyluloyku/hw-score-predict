@@ -183,10 +183,12 @@ Even though we achieved relatively high R2 score and low mean squared error in t
 
 ## Contributions of Team Members
 We collaborated on all tasks and discussed the approaches together. None of the models are implemented by one person. But you can find below the files that corresponding team member spent more effort.
+
 Eylül: 
 - combined.ipynb
 - regressor_from_text.ipynb
 - softmax_two_class.ipynb
+
 Arda: 
 - combined.ipynb
 - oversampling.ipynb
